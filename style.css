@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.obody{
+    background: black;
+   
+}
+
+.mainbody{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    flex: 50%;
+}
