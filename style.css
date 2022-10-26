@@ -6,7 +6,7 @@ body{
 .mainbody{
     margin-left: 40%;
     margin-top: 10%;
-    background: linear-gradient(#eeaeca,#94bbe9);
+    background: linear-gradient(#2262c1,#2bc05f);
     width: 250px;
     height: 390px;
     border: solid;
@@ -16,6 +16,8 @@ body{
 
 }
 
+/* pointer event is responsible for inactve of the screen when
+ you typed any number in it */
 .screen{
     width: 80%;
     height: 41px;
@@ -31,11 +33,19 @@ body{
 .calcbutton{
     height: 300px;
     background: linear-gradient(#c32248, #fdc62d);
-    margin: 10% 5% 5% 5%;
+    margin: 7% 5% 5% 5%;
     border-radius: 10%;
 }
 
 button{
-    size: 50em;
-
+    height: 50px;
+    width: 50px;
+    margin-top: 7px;
+    margin-left: 3px;
+    border-radius: 22px;
+    border: solid;
+    background: linear-gradient(#070455,#330404);
+    color: wheat;
+    border-style: dotted;
+    font-size: large;
 }
