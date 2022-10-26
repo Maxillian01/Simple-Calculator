@@ -23,5 +23,19 @@ body{
     display: block;
     border-radius: 5%;
     border-color: purple;
+    font-size: 30px;
+    font-family: sans-serif;
+    pointer-events: none;
 }
 
+.calcbutton{
+    height: 300px;
+    background: linear-gradient(#c32248, #fdc62d);
+    margin: 10% 5% 5% 5%;
+    border-radius: 10%;
+}
+
+button{
+    size: 50em;
+
+}
