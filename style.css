@@ -44,8 +44,22 @@ button{
     margin-left: 3px;
     border-radius: 22px;
     border: solid;
-    background: linear-gradient(#070455,#330404);
+    background: linear-gradient(#080566,#dcbdbd);
     color: wheat;
     border-style: dotted;
     font-size: large;
 }
+
+button:hover{
+    cursor:pointer;
+    background: purple;
+}
+
+/* this code works when the pointer event is not active because 
+the pointer event set to none stops every activity of the pointer
+ in the screen element  */
+ 
+/* .screen:hover{
+    cursor: pointer;
+    color: #fdc62d;
+} */
